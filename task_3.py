@@ -1,0 +1,8 @@
+hours1 = int(input('Write the number of hours:'))
+min1 = int(input('write the number of minutes:'))
+sec1 = int(input('write the number of seconds:'))
+hours2 = int(input('Write the number of hours:'))
+min2 = int(input('write the number of minutes:'))
+sec2 = int(input('write the number of seconds:'))
+# (print3600*int(hours1)+60*int(minutes1)+int(seconds1))-(3600*int(hours2)+60*int(minutes2)+int(seconds2))
+print((hours2-hours1)*3600)+((min2-min1)*60)+(sec2-sec1)
